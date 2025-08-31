@@ -3,7 +3,7 @@
 Learn the probability distribution of 2D slices of high-dimensional **fermionic nodal surfaces** using **Conditional Continuous Normalising Flows (CNFs)** in the **FFJORD** style (neural ODEs + Hutchinson trace).
 
 <p align="center">
-  <img src="original_vs_machine_long_test1.png" alt="Original vs machine-learned nodal slice" width="70%">
+  <img src="original_vs_machine_long_test1.png" alt="Original vs machine-learned nodal slice" width="70%"> 
 </p>
 
 > Data generator: fractal-like nodal images from the Frost Research Group’s [`Astowell.jl`](https://github.com/Frost-group/Astowell.jl).  
