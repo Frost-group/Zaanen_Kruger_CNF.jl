@@ -6,3 +6,11 @@ Main Julia scripts for the project
 . Testing_cnf.jl --> This is a Julia script using FFJORD (a continuous normalising flow) to model 2D data representing nodal structures of fermionic wavefunctions. (works in theory)
 
 ' Testing_non_cnf.jl --> A small non-CNF neural network I made, works fairly well, but doesn't produce very good models for high alpha  
+
+Working on making an optimised version of Testing_cnf.jl code...
+. reducing time span 
+. alg=VCABM() --> alg=BS3() (with custom tolerances) (changing ode solver)
+. Added iteration cap in FFJORD algo
+. tweaked training loops
+. changed normalisation 
+
