@@ -22,8 +22,6 @@ This project trains **conditional CNFs** to model the distribution of nodal-surf
 ---
 
 ## Quick start
-
-### 1) Clone and enter
 ```bash
 git clone https://github.com/Frost-group/Zaanen_Kruger_CNF.jl
 cd Zaanen_Kruger_CNF.jl
