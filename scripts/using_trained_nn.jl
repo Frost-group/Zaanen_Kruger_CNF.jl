@@ -1,4 +1,5 @@
 # Code is meant to be ran after using Testing_cnf.jl
+# VERY IMPORTANT: If using the optimised Training script makes sure to change time step and icnf model!
 using Logging, TerminalLoggers
 global_logger(TerminalLogger())
 
@@ -98,7 +99,7 @@ function generate_images(ps_trained, st_trained, alpha_val)
     end
 
     # 4. Define and solve the reverse ODE problem using our custom function
-    tspan_reverse = (1.0f0, 0.0f0)
+    tspan_reverse = (1.0f0, 0.0f0) # Reduced time scale in the otpimised code 
     prob_reverse = ODEProblem(inference_dynamics_cpu, z_cpu, tspan_reverse, ps_cpu)
     
     sol = solve(prob_reverse; icnf.sol_kwargs...)
