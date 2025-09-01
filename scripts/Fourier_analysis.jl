@@ -103,6 +103,9 @@ plot1d = plot(k_target, Pk_target,
     legend=:bottomleft,
     linewidth=2)
 
-plot!(plot1d, k_generated, Pk_generated, label="Generated", linestyle=:dash, linewidth=2)
+plot!(plot1d, k_generated, Pk_generated, 
+      label="Generated with correlation: $(@sprintf("%.7g", correlation_score))", 
+      linestyle=:dash, 
+      linewidth=2)
 display(plot1d)
 savefig(plot1d, "radially_averaged_comparison_alpha_0.5.png")
