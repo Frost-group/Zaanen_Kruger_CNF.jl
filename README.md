@@ -6,7 +6,7 @@ Learn the probability distribution of 2D slices of high-dimensional **fermionic 
   <img src="original_vs_machine_long_test1.png" alt="Original vs machine-learned nodal slice" width="70%"> 
 </p>
 
-> Data generator: fractal-like nodal images from the Frost Research Group’s [`Astowell.jl`](https://github.com/Frost-group/Astowell.jl).  
+> Image generator: fractal-like nodal images from the Frost Research Group’s [`Astowell.jl`](https://github.com/Frost-group/Astowell.jl).  
 > Flow engine: [`ContinuousNormalizingFlows.jl`](https://github.com/impICNF/ContinuousNormalizingFlows.jl).
 
 ---
