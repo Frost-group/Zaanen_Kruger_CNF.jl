@@ -18,10 +18,14 @@ This project trains **conditional CNFs** to model the distribution of nodal-surf
 - **Approach:** FFJORD-style CNF (neural ODE vector field + unbiased log-det via Hutchinson’s estimator)  
 - **Task:** Density estimation / generative modelling for nodal-surface images  
 - **Main entry point:** `Testing_cnf.jl` (training script)
-
+---
+## Author 
+Casano Kirlew
 ---
 
 ## Quick start
 ```bash
 git clone https://github.com/Frost-group/Zaanen_Kruger_CNF.jl
 cd Zaanen_Kruger_CNF.jl
+
+
