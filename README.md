@@ -21,7 +21,6 @@ This project trains **conditional CNFs** to model the distribution of nodal-surf
 ---
 ## Author 
 Casano Kirlew
----
 
 ## Quick start
 ```bash
