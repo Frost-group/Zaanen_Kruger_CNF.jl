@@ -2,7 +2,7 @@
 # Calculates power spectra for both sets of images 
 # Then radially averages the power spectra into 1d plots and prints a correlation_score
 
-using FFTW, Plots, Images, FileIO, Statistics
+using FFTW, Plots, Images, FileIO, Statistics, Printf
 
 # --- Original Function ---
 function get_power_spectrum(img_path::String)
