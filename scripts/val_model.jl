@@ -65,7 +65,7 @@ for alpha in alphas_to_test
     # NOTE! This assumes your files have a format like '...a0.1.png'
     target_fname = "alpha_$(@sprintf("%.1f", alpha)).png" 
     path_target = joinpath(path_ground_truth, target_fname)
-    
+    # Just in case I had some problems :/
     if !isfile(path_target)
         @warn "Ground truth file not found for alpha=$alpha, skipping."
         continue
